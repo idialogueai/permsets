@@ -1925,16 +1925,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>rooms__AIPrompt__c.rooms__ShowInRecent__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>rooms__AIPrompt__c.rooms__SystemPrompt__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>rooms__AIPrompt__c.rooms__UniqueID__c</field>
         <readable>true</readable>
     </fieldPermissions>
