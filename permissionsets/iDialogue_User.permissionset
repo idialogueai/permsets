@@ -1695,6 +1695,31 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>rooms__AIModel__c.rooms__EvalLastRunDate__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>rooms__AIModel__c.rooms__EvalResults__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>rooms__AIModel__c.rooms__EvalScript__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>rooms__AIModel__c.rooms__EvalTotalAssertions__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>rooms__AIModel__c.rooms__EvalTotalFailed__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>rooms__AIModel__c.rooms__FlowDeveloperName__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -1760,6 +1785,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>rooms__AIModel__c.rooms__Query__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>rooms__AIModel__c.rooms__Serialized__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -1776,16 +1806,6 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>rooms__AIModel__c.rooms__StopSequences__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>rooms__AIModel__c.rooms__SystemDialogue__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>rooms__AIModel__c.rooms__SystemPrompt__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1995,6 +2015,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>rooms__AISkill__c.rooms__IsSystemSkill__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>rooms__AISkill__c.rooms__JSONFunctionResponse__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -2030,6 +2055,16 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>rooms__AISkill__c.rooms__Prompt__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>rooms__AISkill__c.rooms__Query__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>rooms__AISkill__c.rooms__SearchMethod__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -2045,12 +2080,22 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>rooms__AISkill__c.rooms__TemplateID__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>rooms__AISkill__c.rooms__Top_N_Results__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>rooms__AISkill__c.rooms__UniqueID__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>rooms__AISkill__c.rooms__VectorSpace__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
