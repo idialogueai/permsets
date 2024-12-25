@@ -4427,18 +4427,6 @@
         <object>rooms__SiteDefinitionData__c</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
-    <pageAccesses>
-        <apexPage>rooms__GenerateDocument</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
-    <pageAccesses>
-        <apexPage>rooms__Go</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
-    <pageAccesses>
-        <apexPage>rooms__StripePaymentMethod</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
     <tabSettings>
         <tab>rooms__Checklist__c</tab>
         <visibility>Visible</visibility>
