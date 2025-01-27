@@ -1282,6 +1282,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>rooms__AIModel__c.rooms__UserPrompt__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>rooms__AIPrompt__c.rooms__AIModel__c</field>
         <readable>true</readable>
     </fieldPermissions>
