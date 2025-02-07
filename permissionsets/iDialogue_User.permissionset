@@ -129,10 +129,6 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>rooms__AccessToken</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>rooms__Action</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -482,6 +478,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>rooms__InviteRoomMemberResponse</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>rooms__InviteToken</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
