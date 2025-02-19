@@ -129,7 +129,7 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>rooms__AccessToken</apexClass>
+        <apexClass>rooms__InviteToken</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -1683,16 +1683,6 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>rooms__AIVectorSpace__c.rooms__Namespace__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>rooms__AIVectorSpace__c.rooms__RichSource__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>rooms__AIVectorSpace__c.rooms__Source__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

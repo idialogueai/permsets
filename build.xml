@@ -8,10 +8,7 @@
     </target>
 
     <target name="deploy">
-      <sf:deploy username="${sf.username}" password="${sf.password}" serverurl="${sf.serverurl}" maxPoll="50000" deployRoot="deploy" rollbackOnError="true"/>
+      <sf:deploy username="${sf.username}" password="${sf.password}" serverurl="${sf.serverurl}" maxPoll="50000" deployRoot="." rollbackOnError="true"/>
     </target>
 
-    <target name="deploy.staging">
-      <sf:deploy username="${sf.username}" password="${sf.password}" serverurl="${sf.serverurl}" maxPoll="50000" deployRoot="deploy" rollbackOnError="true"/>
-    </target>
 </project>
