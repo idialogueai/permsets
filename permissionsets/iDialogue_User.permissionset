@@ -1602,11 +1602,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>rooms__AISkill__c.rooms__SkillType__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>rooms__AISkill__c.rooms__Temperature__c</field>
         <readable>true</readable>
     </fieldPermissions>
