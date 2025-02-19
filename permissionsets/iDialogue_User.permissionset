@@ -129,6 +129,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>rooms__AccessToken</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>rooms__Action</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -478,10 +482,6 @@
     </classAccesses>
     <classAccesses>
         <apexClass>rooms__InviteRoomMemberResponse</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>rooms__InviteToken</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -949,12 +949,7 @@
         <editable>false</editable>
         <field>Contact.rooms__PortalLastLoginDate__c</field>
         <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Contact.rooms__PortalLoginUsername__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
+    </fieldPermissions>    
     <fieldPermissions>
         <editable>false</editable>
         <field>Contact.rooms__PortalRegistrationDate__c</field>
@@ -1453,6 +1448,16 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>rooms__AISkill__c.rooms__ArchetypeFunction__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>rooms__AISkill__c.rooms__AuthID__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>rooms__AISkill__c.rooms__AuthKey__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -3154,7 +3159,7 @@
         <editable>true</editable>
         <field>rooms__DocumentRoomMember__c.rooms__Origin__c</field>
         <readable>true</readable>
-    </fieldPermissions>
+    </fieldPermissions>    
     <fieldPermissions>
         <editable>true</editable>
         <field>rooms__DocumentRoomMember__c.rooms__Phone__c</field>
