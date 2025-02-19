@@ -1442,16 +1442,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>rooms__AISkill__c.rooms__AuthID__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>rooms__AISkill__c.rooms__AuthKey__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>rooms__AISkill__c.rooms__Category__c</field>
         <readable>true</readable>
     </fieldPermissions>
