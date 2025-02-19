@@ -1447,11 +1447,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>rooms__AISkill__c.rooms__DMLTemplate__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>rooms__AISkill__c.rooms__Description__c</field>
         <readable>true</readable>
     </fieldPermissions>
