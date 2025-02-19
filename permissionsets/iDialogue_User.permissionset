@@ -1434,12 +1434,7 @@
         <editable>false</editable>
         <field>rooms__AISkill__c.rooms__AIModel__c</field>
         <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>rooms__AISkill__c.rooms__ApexTemplate__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
+    </fieldPermissions>    
     <fieldPermissions>
         <editable>false</editable>
         <field>rooms__AISkill__c.rooms__ArchetypeAISkill__c</field>
